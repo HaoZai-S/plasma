@@ -1,0 +1,9 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: plasma-provider-payment-8001
+  profiles:
+#    自由切换开发环境、生产环境
+    active: dev
